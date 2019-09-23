@@ -54,7 +54,7 @@ body {
 }
 
 /*HEADER*/
-header {
+.wrapper {
 background: url(assets/images/bg.png) no-repeat center;
 background-size: cover;
 height: 566px;
@@ -145,3 +145,44 @@ li {
 .menu span {
     padding-left: 24px;
 }
+
+/*MAIN*/
+.player {
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 55px;
+    margin-left: 150px;
+}
+    
+ .video {
+    position: relative;
+}
+    
+.video-layer {
+    background-color: rgba(245, 197, 6, 0.11);
+    position: absolute;
+    top: 0;
+    left: 0;
+     width: 550px;
+    height: 330px;
+}
+    
+.info {
+    margin-top: 79px;
+    padding-right: 23px;
+}
+    
+.info p {
+    font-family: 'Asap-Regular', sans-serif;
+    font-size: 63px;
+    text-transform: uppercase;
+    text-align: center;
+}
+    
+.second-p {
+    padding: 0px 12px;
+}
+
+
