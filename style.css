@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'OpenSans'; 
+    src: url(assets/fonts/OpenSans-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'SegoeWP';
+    src: url(assets/fonts/SegoeWP.ttf);
+}
+
+@font-face {
+    font-family: 'Asap-Regular';
+    src: url(assets/fonts/Asap-Regular.otf);
+}
+
+@font-face {
+    font-family: 'SegoeUILight';
+    src: url(assets/fonts/SegoeUILight.ttf);
+}
+
+@font-face {
+font-family: 'PTSansRegular';
+src: url(assets/fonts/PTSansRegular.ttf);
+}
+
+@font-face {
+    font-family: 'PTSansNarrow';
+    src: url(assets/fonts/PTSansNarrow.ttf);
+    }
+
