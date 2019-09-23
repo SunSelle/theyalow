@@ -26,5 +26,39 @@ src: url(assets/fonts/PTSansRegular.ttf);
 @font-face {
     font-family: 'PTSansNarrow';
     src: url(assets/fonts/PTSansNarrow.ttf);
+}
+
+body {
+    background-color: #ffffff;
+    width: 100%;
     }
+
+/*CAROUSEL*/
+.carousel {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+    width: 100%;
+    z-index: 1;
+    height: 566px;
+}
+
+.prev-icon {
+    background-color: #f5c506;
+    padding: 18px 9px;
+} 
+
+.prev-icon:hover {
+    background-color: #cca80c;
+}
+
+/*HEADER*/
+header {
+background: url(assets/images/bg.png) no-repeat center;
+background-size: cover;
+height: 566px;
+}
+
+
 
