@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'OpenSans'; 
-    src: url(assets/fonts/OpenSans-Italic.ttf);
+    font-family: 'LucidaSans'; 
+    src: url(assets/fonts/LucidaSans.ttf);
 }
 
 @font-face {
@@ -60,5 +60,84 @@ background-size: cover;
 height: 566px;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1020px;
+    /*border: 1px solid lawngreen;*/
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-name {
+    text-transform: uppercase;
+    font-family: 'LucidaSans', sans-serif;
+    font-size: 41px;
+    padding-top: 9px;
+    padding-left: 5px;
+    color: #ffffff;
+    font-style: italic;
+}
 
 
+/*MENU*/
+nav {
+    margin-top: 32px;
+}
+
+nav {
+    
+    box-shadow: -6px -11px 2px 3px rgba(157, 133, 25, 1),
+                -15px -19px 2px 3px rgba(128, 113, 34, 0.6);
+}
+
+li {
+    display: inline;
+}
+
+.menu li {
+    background-color: #f5c506;
+    padding: 16px 18px 8px 16px;
+    border-right: 1px solid #a18208;
+}
+
+.menu li:first-child {
+    padding-right: 12px;
+}
+
+.menu li:nth-child(2n) {
+    padding-right: 16px;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #a18208;
+    font-family: 'SegoeWP';
+    font-size: 17px;
+    padding-left: 2px;
+}
+
+.menu a:first-child {
+    padding-left: 25px;
+}
+
+.menu img {
+    padding-right: 9px;
+    padding-top: 11px;
+}
+
+.menu img:first-child {
+    padding-right: 9px;
+    padding-top: 11px;
+}
+
+.menu span {
+    padding-left: 24px;
+}
