@@ -93,8 +93,8 @@ nav {
 
 nav {
     
-    box-shadow: -6px -11px 2px 3px rgba(157, 133, 25, 1),
-                -15px -19px 2px 3px rgba(128, 113, 34, 0.6);
+    box-shadow: -6px -3px 2px 3px rgba(157, 133, 25, 1),
+                -13px -10px 2px 3px rgba(128, 113, 34, 0.6);
 }
 
 li {
@@ -127,6 +127,10 @@ li {
 .menu a:first-child {
     padding-left: 25px;
 }
+
+.menu a:hover {
+    color: wheat;
+    }
 
 .menu img {
     padding-right: 9px;
