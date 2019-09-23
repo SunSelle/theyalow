@@ -147,6 +147,7 @@ li {
 }
 
 /*MAIN*/
+/*SECTION 1*/
 .player {
     width: 1020px;
     margin: 0 auto;
@@ -182,7 +183,65 @@ li {
 }
     
 .second-p {
-    padding: 0px 12px;
+    padding: 11px 13px;
 }
 
 
+/*SECTION 2*/
+.advantages {
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0px -4px 8px -3px rgba(0,0,0,0.61);
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff;
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.advantages p {
+    font-family: 'SegoeUILight', sans-serif;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.blocks div {
+    width: 330px;
+    height: 212px;
+    border-left: 1px solid #d2d2d2;
+    padding-left: 9px;
+}
+
+.blocks div:last-child {
+    border-right: 1px solid #d2d2d2;
+}
+
+.block-1 object{
+    margin: 60px 0 2px 103px;
+}
+
+.block-1 p {
+    padding-top: 10px;
+    margin-left: 7px;
+}
+
+.block-2 object{
+    margin: 38px 0px 14px 125px;
+}
+
+.block-2 p {
+    margin-left: 10px;
+}
+
+.block-3 object{
+    margin: 53px 0px 12px 109px;
+}
+
+.block-3 p {
+    margin-right: 26px;
+}
