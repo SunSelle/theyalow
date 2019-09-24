@@ -28,6 +28,11 @@ src: url(assets/fonts/PTSansRegular.ttf);
     src: url(assets/fonts/PTSansNarrow.ttf);
 }
 
+@font-face {
+    font-family: 'SegoeWPLight';
+    src: url(assets/fonts/SegoeWPLight.ttf);
+}
+
 body {
     background-color: #ffffff;
     width: 100%;
@@ -119,7 +124,7 @@ li {
     text-transform: uppercase;
     text-decoration: none;
     color: #a18208;
-    font-family: 'SegoeWP';
+    font-family: 'SegoeWP', sans-serif;
     font-size: 17px;
     padding-left: 2px;
 }
@@ -245,3 +250,116 @@ li {
 .block-3 p {
     margin-right: 26px;
 }
+
+/*SECTION 2*/
+.about {
+    background-image: url(assets/images/bg-2.jpg);
+    background-size: no-repeat, center, cover;
+    width: 100%;
+    height: 509px;
+    box-shadow: inset -4px 15px 9px -15px rgba(0,0,0,0.61);
+}
+
+.content {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.content h2 {
+    font-family: 'PTSansRegular', sans-serif; /*поменять шрифт*/
+    font-size: 37px;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding-top: 40px;
+}
+
+.word3 {
+    padding-left: 7px; 
+}
+
+.items {
+    display: flex;
+    margin-top: 32px;
+}
+
+.item1 {
+    position: relative;
+    width: 340px;
+    height: 233px;
+    background-color: #ec9e03;
+}
+
+.item1 p {
+    font-family: 'SegoeWPLight', sans-serif;
+    font-size: 29px;
+    color: #ffffff;
+    line-height: 40px;
+    padding: 14px 38px 33px 29px;
+    word-wrap: break-word;
+}
+
+.item3 {
+    display: flex;
+    align-items: inherit;
+    position: relative;
+    width: 325px;
+    height: 233px;
+    background-color: #ec9e03;
+    margin-left: 36px;
+}
+
+.item3 p {
+    position: absolute;
+    font-family: 'SegoeWPLight', sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: end;
+    right: 5%;
+    top: 7%;
+}
+
+.item3 img {
+    padding-left: 33%;
+    padding-top: 25%;
+}
+
+
+.plus {
+    position: absolute;
+    bottom: 4%;
+}
+
+.plus1 {
+    right: 4%;
+}
+
+.plus2 {
+    right: 2%;
+}
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 112px;
+    height: 85px;
+    margin-top: -3px;
+    font-family: 'SegoeUILight', sans-serif;
+    background-color: #ddb101;
+}
+
+.calendar .date {
+    font-size: 51px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-top: 8px;
+}
+
+.calendar .month {
+    font-size: 21px;
+    color: #b26529;
+    text-transform: uppercase;
+}
+
+
+
