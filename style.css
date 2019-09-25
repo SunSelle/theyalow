@@ -33,6 +33,11 @@ src: url(assets/fonts/PTSansRegular.ttf);
     src: url(assets/fonts/SegoeWPLight.ttf);
 }
 
+@font-face {
+    font-family: 'SegoeUI';
+    src: url(assets/fonts/SegoeUI.ttf);
+}
+
 body {
     background-color: #ffffff;
     width: 100%;
@@ -344,7 +349,7 @@ li {
     width: 112px;
     height: 85px;
     margin-top: -3px;
-    font-family: 'SegoeUILight', sans-serif;
+    font-family: 'SegoeUI', sans-serif;
     background-color: #ddb101;
 }
 
