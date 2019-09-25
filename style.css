@@ -70,7 +70,7 @@ body {
 
 /*HEADER*/
 .wrapper {
-    background: url(assets/images/bg.png) no-repeat center;
+    background: url(assets/images/bg.jpg) no-repeat center;
     background-size: cover;
     height: 566px;
 }
@@ -501,6 +501,8 @@ li {
 
 .list img {
     padding-left: 18px;
+    width: 14px;
+    height: 14px;
 }
 
 .list p {   
