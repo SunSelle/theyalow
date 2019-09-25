@@ -38,6 +38,11 @@ src: url(assets/fonts/PTSansRegular.ttf);
     src: url(assets/fonts/SegoeUI.ttf);
 }
 
+@font-face {
+    font-family: 'OpenSans';
+    src: url(assets/fonts/OpenSans.ttf);
+}
+
 body {
     background-color: #ffffff;
     width: 100%;
@@ -482,8 +487,35 @@ li {
     height: 63px;
     z-index: 15;
 }
-  
-      
+
+.list {
+    width: 400px;
+    float: right;
+    margin-top: 100px;
+}
+
+.list div {
+    display: flex;
+    align-items: center;
+    padding-bottom: 27px;
+}
+
+.list img {
+    padding-left: 18px;
+}
+
+.list p {   
+    font-family: 'OpenSans', sans-serif;
+    font-size: 22px;
+    color: #a9a9a7;
+    overflow-wrap: break-word;
+    padding-left: 20px;
+    
+ }
+
+
+
+
   
   
   
