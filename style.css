@@ -415,3 +415,76 @@ li {
     background-size: cover;
     height: 499px;
 }
+
+.bottom-section h2 {
+    font-family: 'PTSansRegular', sans-serif;
+    font-size: 43px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #f5c506;
+    text-align: center;
+    padding-top: 41px;
+}
+
+.all-items {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.desktop {
+    background-image: url("assets/images/desktop.png");
+    opacity: 0.569;
+    position: absolute;
+    margin-top: 51px;
+    margin-left: 17px;
+    width: 323px;
+    height: 255px;
+  }
+
+.ellipse {
+    border-radius: 50%;
+    background-color: rgb(245, 197, 6);
+    position: absolute;
+    margin-top: 9px;
+    width: 116px;
+    height: 116px;
+    z-index: 17;
+  }
+
+.ellipse p {
+    font-family: "PTSansNarrow", sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-left: 6px;
+    text-align: left;
+    letter-spacing: 0.3px;      
+    }
+
+.pad {
+    background-image: url("assets/images/pad.png");
+    position: absolute;
+    opacity: 0.471;
+    margin-left: 365px;
+    margin-top: 94px;
+    width: 129px;
+    height: 173px;
+}
+
+.mobile {
+    background-image: url("assets/images/phone.png");
+    opacity: 0.569;
+    position: absolute;
+    margin-left: 518px;
+    margin-top: 205px;
+    width: 39px;
+    height: 63px;
+    z-index: 15;
+}
+  
+      
+  
+  
+  
+  
