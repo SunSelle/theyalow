@@ -44,28 +44,20 @@ nav {
     box-shadow: none;
 }
 
-.container nav ul {
-    display: flex;
-    justify-content: space-around;
-}
-
 .menu li {
     background-color: transparent;
     float: left; 
     margin-left: 4px;
     padding-top: 19px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
     border-right: 0;
-    /*padding-top: 27px;
-    padding-bottom: 18px;*/
 }
 
 .menu li:last-child {
     border-right: none; 
 }
-
-/*.menu li:nth-child(2n) {
-    padding-right: 0;
-}*/
 
 .menu a {
     display: inline-block;
@@ -118,9 +110,9 @@ nav {
     padding-top: 0;
 }
 
-/*.menu span {
-    padding-left: 14px;
-}*/
+.menu span {
+    padding-left: 0;
+}
 
 .video {
     display: none;
