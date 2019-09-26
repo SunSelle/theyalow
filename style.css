@@ -114,17 +114,17 @@ li {
 
 .menu li {
     background-color: #f5c506;
-    padding: 16px 18px 8px 16px;
+    /*padding: 16px 18px 8px 16px;*/
     border-right: 1px solid #a18208;
 }
 
-.menu li:first-child {
+/*.menu li:first-child {
     padding-right: 12px;
 }
 
 .menu li:nth-child(2n) {
     padding-right: 16px;
-}
+}*/
 
 .menu a {
     text-transform: uppercase;
@@ -132,12 +132,12 @@ li {
     color: #a18208;
     font-family: 'SegoeWP', sans-serif;
     font-size: 17px;
-    padding-left: 2px;
+    /*padding-left: 2px;*/
 }
 
-.menu a:first-child {
+/*.menu a:first-child {
     padding-left: 25px;
-}
+}*/
 
 .menu a:hover {
     color: wheat;
@@ -148,15 +148,9 @@ li {
     padding-top: 11px;
 }
 
-/*.menu img:first-child
-.user {
-    padding-right: 9px;
-    padding-top: 11px;
-}*/
-
-.menu span {
+/*.menu span {
     padding-left: 24px;
-}
+}*/
 
 /*MAIN*/
 /*SECTION 1*/
