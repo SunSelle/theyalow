@@ -44,11 +44,19 @@
     <section>
         <div class="player">
         <div class="video">
-            <video width="550" height="330" controls poster="assets/images/video-placeholder.jpg">
+            <video controls poster="assets/images/video-placeholder.jpg">
+                <source src="#" type='video/ogg; codecs="theora, vorbis"'>
+            </video>
+            <div class="video-layer"></div>
+        </div> 
+
+        <div class="video-media">
+            <video controls poster="assets/images/video-placeholder-mob.jpg">
                 <source src="#" type='video/ogg; codecs="theora, vorbis"'>
             </video>
             <div class="video-layer"></div>
         </div>
+
         <div class="info">
              <span><p class="first-p" style="color:#f5c506">The cool</p></span>
                <span><p class="second-p" style="color: #ffffff">The minimal</p></span>

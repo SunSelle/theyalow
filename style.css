@@ -160,6 +160,10 @@ li {
 
 /*MAIN*/
 /*SECTION 1*/
+.video-media {
+    display: none;
+}
+
 .player {
     width: 1020px;
     margin: 0 auto;
@@ -171,6 +175,11 @@ li {
     
  .video {
     position: relative;
+}
+
+.video video {
+    width: 550px;
+    height: 330px;
 }
     
 .video-layer {
