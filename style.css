@@ -104,9 +104,6 @@ body {
 /*MENU*/
 nav {
     margin-top: 32px;
-}
-
-nav {
     box-shadow: -6px -3px 2px 3px rgba(157, 133, 25, 1),
                 -13px -10px 2px 3px rgba(128, 113, 34, 0.6);
 }
@@ -146,15 +143,16 @@ li {
     color: wheat;
 }
 
-.menu img {
+.container .menu img {
     padding-right: 9px;
     padding-top: 11px;
 }
 
-.menu img:first-child {
+/*.menu img:first-child
+.user {
     padding-right: 9px;
     padding-top: 11px;
-}
+}*/
 
 .menu span {
     padding-left: 24px;
