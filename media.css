@@ -437,7 +437,33 @@ align-items: center;
     display: none;
 }
 
+/*FOOTER*/
+footer {
+    height: 40px;
+}
 
+.footer {
+    width: 100%;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.logo-footer h3 {
+    font-size: 29px;
+    font-family: "LucidaSans", sans-serif;
+    color: #ffffff;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
+    padding-top: 2px;
+    padding-left: 5px;
+}
 
 }
 

@@ -89,6 +89,11 @@ body {
     align-items: center;
 }
 
+.logo img {
+    width: 83px;
+    height: 83px;
+}
+
 .logo-name {
     font-family: 'LucidaSans', sans-serif;
     font-size: 41px;
@@ -530,6 +535,11 @@ footer {
     display: flex;
     align-items: center;
     padding-top: 3px;
+}
+
+.logo-footer object {
+    width: 55px;
+    height: 55px;
 }
 
 .logo-footer h3 {
