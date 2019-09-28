@@ -113,7 +113,6 @@ nav {
     justify-content: space-around;
 }
 
-
 li {
     display: inline;
 }
@@ -413,7 +412,7 @@ li {
 }
 
 
-/**SECTION 3*/
+/*SECTION 3*/
 .bottom-section {
     background: url(assets/images/bg-3.jpg) no-repeat center;
     background-size: cover;
