@@ -135,6 +135,7 @@ nav {
 
 .video-media video {
     width: 100%;
+    height: 327px;
 }
 
 .video-layer {
@@ -150,9 +151,256 @@ nav {
     display: none;
 }
 
+.advantages {
+    background-image: none;
+    background-color: transparent;
+    width: 100%;
+    height: 151px;
+    box-shadow: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 96;
+}
+
+.mid_bar {
+    background-image: url(assets/images/Layer-27-copy.png);
+    width: 100%;
+    height: 174px;
+    opacity: 1.4;
+    position: absolute;
+    left: 0px;
+    top: -2px;
+    z-index: 84;
+    box-shadow: none;
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-image: url(assets/images/Layer27.png);
+    opacity: 2.4;
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    height: 174px;
+    z-index: 89;
+}
+
+.advantages p {
+    font-family: 'SegoeUILight', sans-serif;
+    font-size: 23px;
+}
+
+.advantages object {
+align-items: center;
+}
+
+.blocks div {
+    width: 33.333333%;
+    height: 174px;
+    border-left: 1px solid #d2d2d2;
+    padding-left: 9px;
+    margin-top: 18px;
+}
+
+.block-1 object {
+    margin: 0;
+    padding-left: 35px;
+    padding-top: 33px;
+    width: 89px;
+    height: 61px;
+  }
+
+.block-1 p {
+    padding-top: 19px;
+    margin-left: 0;
+    margin-right: 39px;
+}
+
+.block-2 object{
+    margin: 0;
+    width: 67px;
+    height: 69px;
+    padding-top: 28px;
+    padding-left: 73px;
+}
+
+.block-2 p {
+    margin-left: 9px;
+    padding-top: 16px;
+}
+
+.block-3 object{
+    margin: 0;
+    padding-top: 29px;
+    margin-left: 59px;
+    width: 68px;
+    height: 69px;
+}
+
+.block-3 p {
+    margin-right: 3px;
+    padding-top: 15px;
+}
+
+.calendar {
+    display: none;
+}
+
+
+
+
+
+
+.about {
+    background-image: none;
+    background-color: #ffffff;
+    height: 480px;
+    box-shadow: none;
+}
+
+.content {
+    width: 100%;
+}
+
+.content h2 {
+    display: none;
+}
+
+.items {
+  
+    position: relative;
+   
+    background-color: #ffffff;
+}
+
+.item1 {
+    position: relative;
+    width: 320px;
+    height: 230px;
+    margin-right: 14px;
+    margin-left: 11px;
+}
+
+.item1 p {
+    font-size: 28px;
+    word-wrap: break-word;
+    line-height: 1.4;
+    text-align: left;
+    padding-left: 21px;
+    padding-top: 17px;
+    padding-right: 16px;
+}
+  
+
+.item2 {
+    margin-left: 2px;
+    margin-right: 6px;
+}
+
+.item3 {
+    display: none;
+}
+
+.slidecontainer {
+    display: none;
+}
+
+
+.item3-mobile {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f5c507;
+    width: 100%;
+    height: 230px;
+    margin-top: 8px;
+}
+
+.twitt-img {
+    background-image: url(assets/images/twitter.png);
+    background-repeat: no-repeat;
+    left: 85px;
+    /* top: 870px; */
+    /* width: 159px; */
+    height: 133px;
+    margin-top: 18%;
+    margin-left: 26%;  
+}
+
+.twitt-messages {
+    margin-top: 24px;
+}
+
+.twitt-messages div {
+    
+    background-repeat: no-repeat;
+    height: 42px;
+}
+
+  .message1 {
+      background-image: url(assets/images/twitt-active.png);
+      padding-top: 13px;
+  }
+
+  .message2,
+  .message3 {
+    background-image: url(assets/images/twitt-inactive.png);
+    padding-top: 13px;
+}
+
+.twitt-messages p {
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: #a3a2a2;
+    padding-left: 9%;
+    margin-top: -8px;
+    line-height: 21px;
+}
+
+.form {
+    padding-left: 16px;
+}
+
+.form form {
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid #d0a806;
+    background-color: #ffffff;
+    box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.11);
+    border-right: none;
+}
+
+#submit {
+    background-color: #e1a01e;
+    font-family: "Arial", sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+    width: 70px;
+    height: 34px;
+    border: 1px solid #d0a806;
+    border-left: none;
+}
+
 
 
 }
 
 
   
+
+
+  
+  
+  
+ 
