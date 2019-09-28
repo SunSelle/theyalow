@@ -24,9 +24,9 @@ width: 100%;
     align-items: end;
 }
 
-.container .logo img {
-    width: 40px;
-    height: 40px;
+.logo object {
+    width: 39px;
+    height: 39px;
     margin-bottom: 0;
     padding-left: 5px;
 }
@@ -34,7 +34,7 @@ width: 100%;
 .logo-name {
     font-size: 19px;
     padding-top: 13px;
-    padding-left: 8px;
+    padding-left: 6px;
 }
 
 /*MENU*/
@@ -410,27 +410,28 @@ align-items: center;
 }
 
 .desktop {
-    margin-top: 79px;
-    margin-left: 55px;
+    margin-top: 13%;
+    margin-left: 9%;
 }
 
 .ellipse {
-    margin-top: 40px;
-    margin-left: 26px;
+    margin-top: 6%;
+    margin-left: 4%;
 }
 
 .ellipse p {
-    padding-left: 8px;     
+    padding-left: 7px;
+    padding-top: 55px;    
 }
 
 .pad {
-    margin-left: 402px;
-    margin-top: 121px;
+    margin-left: 63%;
+    margin-top: 19%;
 }
 
 .mobile {
-    margin-left: 555px;
-    margin-top: 232px;
+    margin-left: 87%;
+    margin-top: 36%;
 }
 
 .list {
@@ -439,7 +440,7 @@ align-items: center;
 
 /*FOOTER*/
 footer {
-    height: 40px;
+    height: 46px;
 }
 
 .footer {
@@ -447,22 +448,18 @@ footer {
 }
 
 .logo-footer {
-    display: flex;
-    align-items: center;
-    padding-top: 3px;
+    padding-top: 9px;
+    padding-left: 10%;
+}
+
+.logo-footer object {
+    width: 31px;
+    height: 31px;
 }
 
 .logo-footer h3 {
-    font-size: 29px;
-    font-family: "LucidaSans", sans-serif;
-    color: #ffffff;
-    font-style: italic;
-    text-transform: uppercase;
-    line-height: 1.2;
-    text-align: center;
-    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.42);
-    padding-top: 2px;
-    padding-left: 5px;
+    font-size: 16px;
+    padding-left: 9px;
 }
 
 }

@@ -89,7 +89,7 @@ body {
     align-items: center;
 }
 
-.logo img {
+.logo object {
     width: 83px;
     height: 83px;
 }
