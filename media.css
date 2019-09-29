@@ -84,7 +84,7 @@ nav {
 }
 
   .border1 {
-      left: 56%;
+      left: 55%;
 }
 
   .border2 {
@@ -204,7 +204,7 @@ align-items: center;
 .blocks div {
     width: 33.333333%;
     height: 174px;
-    border-left: 1px solid #d2d2d2;
+    border-left: none;
     padding-left: 9px;
     margin-top: 18px;
 }
